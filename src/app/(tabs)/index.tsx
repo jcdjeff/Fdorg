@@ -6,7 +6,8 @@ import ProductListItem from '@/src/components/ProductListItem';
 export default function MenuScreen() {
   return (
     <View>
-      <ProductListItem product={products[1]}/>
+      <ProductListItem product={products[2]} />
+      <ProductListItem product={products[5]}/>
     </View>
   );
 };
